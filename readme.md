@@ -28,7 +28,7 @@ FFT code, translated from the FFT Matlab code
 		tuple[np.array]: 2-element tuple containing 1D frequency and 1D amplitude arrays.
 
 ## h5_tree
-prints the structure of a hdf5 file. Just feed the h5py "file" class.
+Prints the structure of a hdf5 file on the terminal. Just feed the h5py "file" class as a n argument.
 
 ## GetH5Tree
 Takes the h5py File class and returns the hdf5 tree as a string.
